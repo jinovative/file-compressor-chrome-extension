@@ -1,0 +1,15 @@
+{
+  "name": "compressor",
+  "version": "1.0.0",
+  "description": "This extension compresses files (Excel, Docs, PDF, Images) before attaching them to emails or uploading, helping users stay under file size limits (e.g., Outlook).",
+  "main": "background.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aspose/words": "^25.8.0",
+    "jszip": "^3.10.1"
+  }
+}
